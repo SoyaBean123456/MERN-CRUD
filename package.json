@@ -1,0 +1,34 @@
+{
+  "name": "MERN-App--",
+  "version": "1.0.0",
+  "description": "A Mern App That I Dont Know What Is Gonna Do Yet.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.28",
+    "react-scripts": "^3.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "client": "cd client && npm run start",
+    "server": "nodemon index --ignore client/",
+    "client-install": "cd client && npm install",
+    "server-install": "npm install",
+    "install-all": "concurrently \"npm run client-install\" \"npm run server-install\"",
+    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "heroku-postbuild" : "cd client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SoyaBean123456/MERN-App--.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SoyaBean123456/MERN-App--/issues"
+  },
+  "homepage": "https://github.com/SoyaBean123456/MERN-App--#readme"
+}

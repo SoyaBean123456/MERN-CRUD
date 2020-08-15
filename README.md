@@ -1,2 +1,2 @@
-# MERN-CRUD
-DUNNO DO WHAT APP
+# MERN-App--
+A Mern App That I Dont Know What Is Gonna Do Yet.
